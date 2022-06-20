@@ -681,7 +681,7 @@ height: 100%;
   z-index: 99;
   background: linear-gradient(to bottom, #f5a601, #febd00);
   margin-top: 1px;
-  position: 20px 0;
+  padding: 20px 0;
 }
 .header #navbarNavDropdown li {
   margin: 10px 0;

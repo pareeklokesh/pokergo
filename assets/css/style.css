@@ -604,10 +604,9 @@ top: 0;
 .visaclass .rigster::before {
   display: none;
 }
-body{
+html, body{
   overflow-x: hidden;
-overflow-y: auto;
-height: 100%;
+
 }
 
 .header-top.header-nav ul li:nth-child(5)::after, .header-top.header-nav ul li:nth-child(5)::before {

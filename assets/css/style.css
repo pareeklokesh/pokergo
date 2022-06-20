@@ -604,12 +604,12 @@ top: 0;
 .visaclass .rigster::before {
   display: none;
 }
-body, .container-fluid {
+body{
   overflow-x: hidden;
+overflow-y: auto;
+height: 100%;
 }
-.container-fluid, .w-100 {
-  overflow: hidden;
-}
+
 .header-top.header-nav ul li:nth-child(5)::after, .header-top.header-nav ul li:nth-child(5)::before {
   display: none;
 }
@@ -618,7 +618,11 @@ body, .container-fluid {
 
 
 
+
 @media (max-width: 991px) {
+  .header-top.header-nav ul li::after, .header-top.header-nav ul li::before {
+    display: none;
+  }
   .header .navbar .navbar-toggler {
   box-shadow: none !important;
   border: 0;

@@ -610,6 +610,9 @@ body, .container-fluid {
 .container-fluid, .w-100 {
   overflow: hidden;
 }
+.header-top.header-nav ul li:nth-child(5)::after, .header-top.header-nav ul li:nth-child(5)::before {
+  display: none;
+}
 
 
 

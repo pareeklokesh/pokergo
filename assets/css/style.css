@@ -604,8 +604,11 @@ top: 0;
 .visaclass .rigster::before {
   display: none;
 }
-body {
+body, .container-fluid {
   overflow-x: hidden;
+}
+.container-fluid, .w-100 {
+  overflow: hidden;
 }
 
 
